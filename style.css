@@ -14,6 +14,9 @@ body {
     background-size: contain;
     background-position: right 0px bottom 125px;
 }
+nav {
+    margin-top: 50px;
+}
 .navbar .nav-link{
     font-weight: 700;
     margin-left: 10px;
@@ -91,12 +94,17 @@ main .info {
     margin-bottom: 50px;
 }
 .carosoul .card {
-    background: ;
+    background: hsl(0, 0%, 98%);
 }
 .carosoul .card img {
     align-self: center;
     margin-top: -25px;
 } 
+.carosoul .card p {
+    font-weight: 500;
+    color: black;
+    opacity: 0.5;
+}
 section {
     background: hsl(12, 88%, 59%);
     color: white;
