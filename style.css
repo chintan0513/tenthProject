@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap');
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    height: 100vh;
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 16px;
+    background: url('assets/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right 0px bottom 125px;
+}
+.navbar .nav-link{
+    font-weight: 700;
+    margin-left: 10px;
+}
+.navbar .nav-link:hover{
+    opacity: 0.5;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    background: hsl(12, 88%, 59%);
+    padding: 10px 25px;
+    border-radius: 2cm;
+    font-weight: 500;
+}
+.link:hover{
+    opacity: 0.8;
+    color: white;
+}
+.row {
+    padding-top: 50px;
+}
+.first {
+    padding-top: 100px;
+}
+.first h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    color: hsl(233, 12%, 13%);
+}
+.first p {
+    font-weight: 500;
+    opacity: 0.5;
+    padding: 25px 230px 25px 0px;
+    font-size: 20px;
+}
+main {
+    margin-top: 150px;
+    background: url('assets/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top 200px right 1000px;
+}
+main span {
+    background-color: hsl(12, 88%, 59%);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 500;
+    border-radius: 2cm;
+}
+main h1 {
+    color: hsl(233, 12%, 13%);
+    font-weight: 700;
+    font-size: xxx-large;
+}
+main .abt{
+    font-weight: 500;
+    opacity: 0.5;
+    padding: 25px 230px 25px 0px;
+    font-size: 20px;
+}
+main .info {
+    font-weight: 500;
+    opacity: 0.5;
+}
+.carosoul {
+    margin: 150px 0px;
+}
+.carosoul h3 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.carosoul .row{
+    margin-bottom: 50px;
+}
+.carosoul .card {
+    background: ;
+}
+.carosoul .card img {
+    align-self: center;
+    margin-top: -25px;
+} 
+section {
+    background: hsl(12, 88%, 59%);
+    color: white;
+}
+section .row{
+    padding: 50px 100px;
+}
+section h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+section .link{
+    color: hsl(12, 88%, 59%);
+    text-decoration: none;
+    background: white;
+    padding: 10px 25px;
+    border-radius: 2cm;
+    font-weight: 700;
+}
+section .btn {
+    text-align: end;
+}
+section .link:hover{
+    opacity: 0.7;   
+    color: hsl(12, 88%, 59%);
+}
+footer {
+    background: hsl(233, 12%, 13%);
+    color: white;
+}
+footer i{
+    font-size: large;
+    margin: 25% 10px 0px 0px;
+}
+footer .links{
+    text-decoration: none;
+    color: white;
+    display: grid;
+    margin: 10px;
+}
+footer .links:hover, i:hover{
+    color: hsl(12, 88%, 59%);
+}
+footer form #email {
+    width: 70%;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+footer form .btn {
+    color: white;
+    background: hsl(12, 88%, 59%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+form .btn:hover {
+    color: white;
+    background: hsl(12, 88%, 59%);
+}
+.err_msg {
+    color: red;
+}
+footer .cpr{
+    margin: 15% 10px 0px 0px;
+    opacity: 0.5;
+}
+
+
+@media only screen and (max-width: 600px){
+    body {
+        background: url('assets/bg-tablet-pattern.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        width: 100%;
+    }
+    main span b{
+        background-color: hsl(12, 88%, 59%);
+        color: hsl(233, 12%, 13%);
+        opacity: 0.5;
+    }
+}
+@media only screen and (min-width: 900px){
+    main b{
+        padding: 25px;
+        font-size: 20px;
+    }
+    main .info {
+        margin-top: 25px;
+        margin-left: 100px;
+        padding-right: 125px;
+    }
+}
